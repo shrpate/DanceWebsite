@@ -1,0 +1,75 @@
+{% extends "main/base.html" %}
+{% block title %}
+    Contact
+{% endblock title %}
+{% block content %}
+
+    <div class="image-contact">
+        <div class="image-text">                
+            <h1 class="content-title" style="font-size:55px">Get in Touch With us Today!</h1>
+            <p class="content-text">Thank you for visiting the Ananta Dance Academy. We are always interested in hearing your questions or comments.                    For general information please call us or send us a message online.</p>
+        </div>
+    </div>
+
+    <div style="padding-left: 5%; padding-right: 5%; padding-top: 5%;">
+        <div class="row">
+            <div class="col-md-3">
+                <p class="content-title">ADDRESS</p>
+                <p style="font-weight: 300;">
+                    Ananta Dance Academy<br>
+                    18229 93 Avenue NW<br>
+                    Edmonton, Alberta<br>
+                    T5T 1V2
+                </p>
+            </div>
+
+            <div class="col-md-3">
+                <p class="content-title">CONTACT INFO</p>
+                <p style="font-weight: 300;">Email: info@anantadanceac.ca<br>
+                    Phone: (780)504-9922
+                </p>
+            </div>
+
+            <div class="col-md-6">
+                <h3 style="font-weight: 600; padding: 1%;" class="article-metadata content-title">We're social - Get in touch!</h3>
+                
+                <div style="padding-top: 5%;">
+                    <a class="social-media" href="https://www.facebook.com/anantadanceschool/" style="padding: 2%;">
+                        <img src="https://i.ibb.co/XL7nCcV/facebook.png" alt="Facebook" width="40" height="40">
+                    </a>
+
+                    <a class="social-media" href="https://www.instagram.com/ananta_dance_academy/" style="padding: 2%;">
+                        <img src="https://i.ibb.co/x1fcmxp/instagram.png" alt="Instagram" width="40" height="40">
+                    </a>
+
+                    <a class="social-media" href="https://www.youtube.com/channel/UCZyaaExGKxBI0eA_QMvqWhQ" style="padding: 2%;">
+                        <img src="https://i.ibb.co/LSkXSwR/Youtube.png" alt="Youtube" width="40" height="40">
+                    </a>
+
+                    <a class="social-media" href="mailto:info@anantadanceac.ca" style="padding: 2%;">
+                        <img src="https://i.ibb.co/zr6Dsq1/mail.png" alt="Mail" width="40" height="40">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="padding-top: 3%;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2371.6588778482596!2d-113.64240448400965!3d53.528148868778764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a020f4b8060013%3A0x227aff2d86a8037d!2s18229%2093%20Ave%20NW%2C%20Edmonton%2C%20AB%20T5T%201V5!5e0!3m2!1sen!2sca!4v1589667100507!5m2!1sen!2sca" width="100%" height="600" frameborder="0" style="border:1" allowfullscreen="" aria-hidden="true" tabindex="0"></iframe>   
+    </div>
+
+    <div style="text-align: center; padding-top: 5%;">
+        <h1 class="content-title" style="color: #d8861b;">Contact us</h3>
+        <div class="contact-form" style="margin-left: 27%; margin-right: 27%;">
+            <form class="contact-form" method="post" action="{% url 'main-contact' %}">
+                {% csrf_token %}
+                    <input class="form-control" name="name" type="text" id="input-name" placeholder="Name*" required>
+                    <input class="form-control" name="email" type="email" id="input-email" placeholder="Email address*" required>
+                    <input class="form-control" name="phone" type="tel" id="input-phone" maxlength="10" placeholder="Phone Number">
+                    <input class="form-control" name="subject" type="text" id="input-subject" placeholder="Subject*" required>
+                    <textarea class="form-control" name="message" type="text" id="input-message" placeholder="Message*" required></textarea>
+                    <input class="form-control submit" type="submit" value="SEND MESSAGE" id="input-submit">
+            </form>
+        </div>
+    </div>
+
+{% endblock content %}

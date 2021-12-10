@@ -1,0 +1,90 @@
+{% extends "main/base.html" %}
+{% block title %}
+    Home
+{% endblock title %}
+{% block content %}
+
+    <div class="image-home">
+        <div class="image-text">
+            <p class="content-text">Welcome to</p>
+            <h1 class="content-title"  style="font-size:55px">Ananta Dance Academy</h1>
+        </div>
+    </div>
+
+    <div style="text-align: center; padding-top: 5%;">
+        <iframe width="100%" height="600" src="https://www.youtube-nocookie.com/embed/p2LN4XlXBsA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    
+    <div>
+        <H1 class="content-title" style="text-align: center; color: #d8861b; padding-top: 5%;">Testimonials</H1>
+        <div class="row" style="padding: 5%;">
+            <div class="col-md-4">
+                <p class="content-text">
+                    "Wonderful dance instructors, great environment. My daughter's first leg in bollywood dancing!! 
+                    Can't wait to watch the recital.
+                    Way to go Bhoomi! Sophie absolutely loves every class with you."
+                </p>
+                <p style="font-weight: 700; letter-spacing: 4px; text-align: right;">-Shobitha C.</p>
+            </div>
+
+            <div class="col-md-4">
+                <p class="content-text">
+                    "Ananta Dance School is very good and professional, my daughter has joined for Bharatnatyam 
+                    classes with Bhoomi, and she is enjoying herself, more than her I enjoy myself practising 
+                    the steps. I am glad this opportunity has come out for our kids, they will learn something 
+                    good from our traditions and culture. All the best Bhoomi for all your future endeavours."
+                </p>
+                <p style="font-weight: 700; letter-spacing: 4px; text-align: right;">-Roopali R.</p>
+                
+            </div>
+
+            <div class="col-md-4">
+                <p class="content-text">
+                    "Bhoomi is a very talented teacher. She technically knows a lots of dance forms, that help 
+                    in teaching those who don't know dance at all.Moreover, she is very cool and got skills to 
+                    create a positive environment in the class all the time. Also, she is a good listener who 
+                    always gives attention to student's concerns and act accordingly. I like her and her choreos 
+                    and would definitely recommend her."
+                </p>
+                <p style="font-weight: 700; letter-spacing: 4px; text-align: right;">-Nimmy G.</p>
+            </div>
+        </div>
+
+        <div class="image-sub-home1">
+            <div class="image-text" style="text-align: right; margin-top: 38%; margin-left: 5%; position:absolute; width: 80%;">
+                <p class="content-text">
+                    ADA aims not only to teach the art of dance, but to give students a strong 
+                    sense of confidence and achievement. We want students to reach their full potential, and leave 
+                    their dance classes feeling happy and successful. We strive to create a strong sense of community 
+                    among our dancers and their families.  Our philosophy is to provide our students with a safe, 
+                    fun, and positive environment so dancers can encourage, support, motivate and inspire each other. 
+                    We offer a wide range of classes and performance opportunities. Most of all, we want every class 
+                    you take, and every experience you have with us to be a positive one.
+                </p>
+                <h1 class="content-title" style="font-size:55px">Our Mission</h1>
+            </div>
+        </div>
+
+        <div class="row" style="padding: 5%; align-items: center;">
+            <div class="col-md-8">
+                <h1 class="content-title" style="color: #d8861b;">A Varity of Classes!</h1>
+                <p class="content-text">
+                    Right about classes...<br>
+                        among our dancers and their families.  Our philosophy is to provide our students with a safe, 
+                        fun, and positive environment so dancers can encourage, support, motivate and inspire each other. 
+                        We offer a wide range of classes and performance opportunities. Most of all, we want every class 
+                        you take, and every experience you have with us to be a positive one.
+                </p>
+                <a class="btn" href="{% url 'main-services' %}">
+                    LEARN MORE
+                </a>  
+                                  
+                
+            </div>
+            <div class="col-md-4" style="padding-top: 5%;">
+                <img src="https://i.ibb.co/1rF2TXN/Whats-App-Image-2020-06-06-at-8-13-28-PM.jpg" width="375" height="600">
+            </div>
+        </div>
+    </div>
+
+{% endblock content %}

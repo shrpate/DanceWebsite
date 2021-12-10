@@ -1,0 +1,201 @@
+body {
+    background: #fff;
+    color: #333333;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  ul {
+    margin: 0;
+  }
+  
+  .bg-steel {
+    background-color: #000;
+  }
+  
+  .site-header .navbar-nav .nav-link {
+    color: #d8861b;
+    font-size: large;
+    font-weight: 600;
+    border-bottom: 5px solid #000;
+  }
+  
+  .site-header .navbar-nav .nav-link:hover {
+    color: #fff;
+    border-bottom: 5px solid #d8861b;
+  }
+
+  
+  .content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+  
+  .article-title {
+    color: #444444;
+  }
+  
+  a.article-title:hover {
+    color: #428bca;
+    text-decoration: none;
+  }
+  
+  .article-content {
+    white-space: pre-line;
+  }
+  
+  .article-img {
+    height: 65px;
+    width: 65px;
+    margin-right: 16px;
+  }
+  
+  .article-metadata {
+    padding-bottom: 1px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #d1d1d1;
+  }
+  
+  .article-metadata a:hover {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .article-svg {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+  }
+  
+  .account-img {
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .account-heading {
+    font-size: 2.5rem;
+  } 
+
+  .image-home {
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("https://i.ibb.co/sgJnGP8/ad-14.jpg");
+    height: 950px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .image-services {
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("https://i.ibb.co/pKG67p3/ad-59.jpg");
+    height: 950px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .image-about {
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("https://i.ibb.co/0KY0Kv1/ad-177.jpg");
+    height: 950px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .image-contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("https://i.ibb.co/HprVz3N/ad-357.jpg");
+    height: 950px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .image-sub-home1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url('https://i.ibb.co/xgyMMpf/logo.png');
+    height: 950px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .image-text {
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    color: white;
+  }
+
+  .content-text {
+    font-weight: 300;
+  }
+
+  .content-title {
+    font-weight: 700; 
+    letter-spacing: 2px;
+  }
+  
+
+  form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+  }
+
+  .form-control{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  form .submit{
+    background: #f7d07b;
+    border-color: transparent;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+  }
+
+  form .submit:hover {
+    background-color: #d8861b;
+    cursor: pointer;
+  }
+
+  .btn {
+    background: #f7d07b;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  .btn:hover {
+    background-color: #d8861b;
+    cursor: pointer;
+  }
+
+  .social-media {
+    opacity: 60%;
+  }
+
+  .social-media:hover {
+    opacity: 100%;
+  }
