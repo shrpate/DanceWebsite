@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "heroku"]
+	url = https://git.heroku.com/anantadanceacademy.git
+	fetch = +refs/heads/*:refs/remotes/heroku/*
+[gui]
+	wmstate = normal
+	geometry = 1536x821+44+44 294 374

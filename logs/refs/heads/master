@@ -1,0 +1,21 @@
+0000000000000000000000000000000000000000 5ce322dee6442226b708495d8e64068fbd8dada6 Shridhar Patel <shridhar.patel@ymail.com> 1592700769 -0600	commit (initial): Initial Commit
+5ce322dee6442226b708495d8e64068fbd8dada6 26066945e0ff90da71d0ce3785297482cd266410 Shridhar Patel <shridhar.patel@ymail.com> 1592701403 -0600	commit: updated Static root
+26066945e0ff90da71d0ce3785297482cd266410 e7fc1ea73dc629a80f3b28c3832db7b9b44ae714 Shridhar Patel <shridhar.patel@ymail.com> 1592701708 -0600	commit: Updated STATIC_ROOT
+e7fc1ea73dc629a80f3b28c3832db7b9b44ae714 ee468b10a9ea980130d278b4e16974486e540e9d Shridhar Patel <shridhar.patel@ymail.com> 1592702305 -0600	commit: added Procfile
+ee468b10a9ea980130d278b4e16974486e540e9d 49913bc2a8ad4eff10624d891d3ca96919ed5e15 Shridhar Patel <shridhar.patel@ymail.com> 1592702864 -0600	commit: Procfile Moved
+49913bc2a8ad4eff10624d891d3ca96919ed5e15 bb9e55164b1908ba4cfa2819a5e0dfa8c1d5c2e2 Shridhar Patel <shridhar.patel@ymail.com> 1592703092 -0600	commit: moved gitignore file
+bb9e55164b1908ba4cfa2819a5e0dfa8c1d5c2e2 be6bae546baf532300a16e2341df601120bdddc9 Shridhar Patel <shridhar.patel@ymail.com> 1592708238 -0600	commit: updated settings
+be6bae546baf532300a16e2341df601120bdddc9 8631185bc9e4fc123ec32a666b7e40bf1292bf3a Shridhar Patel <shridhar.patel@ymail.com> 1592708422 -0600	commit: updated settings
+8631185bc9e4fc123ec32a666b7e40bf1292bf3a 534b3a0097d7505dc927e3022949abdabea18877 Shridhar Patel <shridhar.patel@ymail.com> 1592709338 -0600	commit: added django.heroku
+534b3a0097d7505dc927e3022949abdabea18877 1bc5d937b695a3e12e0af0b8c9600e1da088a16f Shridhar Patel <shridhar.patel@ymail.com> 1592771504 -0600	commit: updated contact form
+1bc5d937b695a3e12e0af0b8c9600e1da088a16f 6802b3dc770aaaf5795296553b66b6a8b41effcb Shridhar Patel <shridhar.patel@ymail.com> 1592786870 -0600	commit: removed contact form
+6802b3dc770aaaf5795296553b66b6a8b41effcb 6a35b806c379e9de2fae887f3e7c11e4633f49d6 Shridhar Patel <shridhar.patel@ymail.com> 1592787045 -0600	commit: removed contact form
+6a35b806c379e9de2fae887f3e7c11e4633f49d6 ee6fb0e5808c6f37340e7499bdddbfac58fe5ad9 Shridhar Patel <shridhar.patel@ymail.com> 1593047495 -0600	commit: improved about page
+ee6fb0e5808c6f37340e7499bdddbfac58fe5ad9 950e52b254d0cf2ed37150a841365b2efa4ee2bf Shridhar Patel <shridhar.patel@ymail.com> 1593287073 -0600	commit: changed nav and container
+950e52b254d0cf2ed37150a841365b2efa4ee2bf 5a22c7ec051ca067b53c7484beefbcde5b954ba5 Shridhar Patel <shridhar.patel@ymail.com> 1593290390 -0600	commit: improved the home page
+5a22c7ec051ca067b53c7484beefbcde5b954ba5 73d487bce24d556ed305f88e0e09e0111e3db71e Shridhar Patel <shridhar.patel@ymail.com> 1593293286 -0600	commit: refined services, contact and about
+73d487bce24d556ed305f88e0e09e0111e3db71e a2a94ffd9a3b60e15e08b7ee60f202952a1c2605 Shridhar Patel <shridhar.patel@ymail.com> 1593312691 -0600	commit: fixed Horizontal Scrolling
+a2a94ffd9a3b60e15e08b7ee60f202952a1c2605 1102a6c07d09d5cd818190166a01ace271a3cd83 Shridhar Patel <shridhar.patel@ymail.com> 1593354125 -0600	commit: contact us form added
+1102a6c07d09d5cd818190166a01ace271a3cd83 b9268c7bb873294eace4ef2b6da5d722d5a4b61c Shridhar Patel <shridhar.patel@ymail.com> 1593369386 -0600	commit: better fonts
+b9268c7bb873294eace4ef2b6da5d722d5a4b61c c9c9f64ad981d1928031f393e2fad9a125c3236a Shridhar Patel <shridhar.patel@ymail.com> 1593736803 -0600	commit: inproved social media icons
+c9c9f64ad981d1928031f393e2fad9a125c3236a 0a7d3aae5a8da15023c990b3cdfcc73f223653c9 Shridhar Patel <shridhar.patel@ymail.com> 1593891328 -0600	commit: Updated Videos Page
